@@ -1,0 +1,54 @@
+---
+title: "Info about Data Science"
+author: "Shohn Godboldt"
+format: html
+editor: visual
+---
+# Reflections of Data Science
+What I think being a data scientist is all about is the ability to manipulate and visualize large datasets into actionable insights. Recently I completed my Master’s of Science in Bioinformatics, which allowed me to gain real-world and academic experience on what it is like to deal with big data on a regular basis while also being able to translate those datasets.
+
+One of the main differences that I see between data scientists and statisticians is the breadth of knowledge. In my opinion, statisticians are often only required to know basic programming to complete their responsibilities, while data scientists are more often required to develop software pipelines as well as other advanced analytics.
+
+Given my background in Bioinformatics and Computational Biology, I see myself more aligned with being a data scientist.
+
+# Running Code
+
+Here I calculate the density of the **Petal.Width** variable from the `iris` dataset and inspect the object.
+
+```{r}
+y <- density(iris$Petal.Width)
+class(y)
+typeof(y)
+str(y)
+```
+
+Now I plot the density curve to visualize the distribution.
+
+```{r, echo=FALSE}
+plot(y)
+```
+
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+y <- density(iris$Petal.Width)
+class(y)
+typeof(y)
+str(y)
+```
+
+You can add options to executable code like this
+
+```{r}
+plot(y)
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

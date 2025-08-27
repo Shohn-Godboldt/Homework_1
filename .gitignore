@@ -49,3 +49,7 @@ po/*~
 rsconnect/
 
 /.quarto/
+
+# Keep Quarto website output
+!docs/
+!docs/**

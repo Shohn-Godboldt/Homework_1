@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Info_DataScience.html",
+    "href": "Info_DataScience.html",
+    "title": "Info about Data Science",
+    "section": "",
+    "text": "What I think being a data scientist is all about is the ability to manipulate and visualize large datasets into actionable insights. Recently I completed my Master’s of Science in Bioinformatics, which allowed me to gain real-world and academic experience on what it is like to deal with big data on a regular basis while also being able to translate those datasets.\nOne of the main differences that I see between data scientists and statisticians is the breadth of knowledge. In my opinion, statisticians are often only required to know basic programming to complete their responsibilities, while data scientists are more often required to develop software pipelines as well as other advanced analytics.\nGiven my background in Bioinformatics and Computational Biology, I see myself more aligned with being a data scientist."
+  },
+  {
+    "objectID": "Info_DataScience.html#quarto",
+    "href": "Info_DataScience.html#quarto",
+    "title": "Info about Data Science",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "Info_DataScience.html#running-code-1",
+    "href": "Info_DataScience.html#running-code-1",
+    "title": "Info about Data Science",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\ny &lt;- density(iris$Petal.Width)\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nYou can add options to executable code like this\n\nplot(y)\n\n\n\n\n\n\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  }
+]
